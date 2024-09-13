@@ -31,12 +31,36 @@ header{
 }
 main{
     grid-area: main;
-    background-color: brown;
+    background-color: rgb(11, 196, 66);
 }
 aside{
     grid-area: sidebar;
-    background-color: chartreuse;
+    background-color: black;
+}
+#asidetext {
+    color: black
+}
+aside:hover {
+    background-color: red;
+    text-align: center;
+}
+aside:hover > img {
+    visibility: visible;
+}
+
+aside > img {
+    visibility: hidden;
 }
 footer{grid-area: footer;
-    background-color: darksalmon;
+    background-color: rgb(14, 233, 50);
+    border: solid 100px;
+    border-color: rgb(240, 21, 185);
+    
     }
+#teknikum{
+    border: 10px solid;
+    border-color: aqua;
+    border-radius: 20px;
+    color: black;
+    
+}
