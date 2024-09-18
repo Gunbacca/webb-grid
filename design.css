@@ -37,12 +37,15 @@ aside{
     grid-area: sidebar;
     background-color: black;
 }
-#asidetext {
-    color: black
+#tjoho {
+    color: black;
+    text-align: center;
+    display: block;
 }
 aside:hover {
     background-color: red;
     text-align: center;
+    
 }
 aside:hover > img {
     visibility: visible;
@@ -52,9 +55,9 @@ aside > img {
     visibility: hidden;
 }
 footer{grid-area: footer;
-    background-color: rgb(14, 233, 50);
+    background-color: rgb(52, 226, 81);
     border: solid 100px;
-    border-color: rgb(240, 21, 185);
+    border-color: rgb(255, 21, 196);
     
     }
 #teknikum{
@@ -63,4 +66,10 @@ footer{grid-area: footer;
     border-radius: 20px;
     color: black;
     
+}
+#vvs{
+    display: block;
+    text-align: center;
+    color: black;
+    margin-top: 100px;
 }
